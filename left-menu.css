@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.sol-menu {
+  width: 14vw;
+  height: 40vh;
+  background-color: rgb(255, 179, 56);
+  position: absolute;
+  top: 5vh;
+  left: -12vw;
+  transition: left 1s;
+}
+.sol-menu:hover {
+  left: 0;
+}
+
+.sol-menu .title {
+  position: relative;
+  background-color: rgb(184, 113, 0);
+  padding: 1rem 3rem;
+}
+
+.sol-menu .title i {
+  position: absolute;
+  right: 0.5rem;
+  transition: transform 1s;
+}
+
+.sol-menu:hover i {
+  transform: rotateY(180deg);
+}
+
+.sol-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem 2rem 0;
+}
+
+.sol-menu ul a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.7rem;
+  margin: 5px;
+  background-color: rgb(182, 149, 67);
+  transition: background-color 0.6s transform 0.6s;
+}
+.sol-menu ul a:hover{
+  background-color: rgb(104, 99, 92);
+  color: black;
+  /* transform: scaleX(1.1); */
+  transform:scaleX(1.1);
+}
+
